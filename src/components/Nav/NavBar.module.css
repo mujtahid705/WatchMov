@@ -1,0 +1,17 @@
+.topBar {
+  height: 20px;
+  background-color: #262626;
+}
+
+.bottomBar {
+  background-color: whitesmoke;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: "Prata", serif;
+  font-family: "Roboto", sans-serif;
+}

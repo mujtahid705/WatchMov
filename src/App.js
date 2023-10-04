@@ -1,7 +1,9 @@
+import NavBar from "./components/Nav/NavBar";
+
 function App() {
   return (
     <div>
-      <h1>WatchMov</h1>
+      <NavBar />
     </div>
   );
 }
