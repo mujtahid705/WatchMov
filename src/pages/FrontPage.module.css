@@ -1,0 +1,38 @@
+.coverImg {
+  height: 500px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 28px;
+}
+
+.des {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 664px) {
+  .title {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .des {
+    font-size: 16px;
+  }
+}

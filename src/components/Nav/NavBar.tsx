@@ -1,3 +1,4 @@
+import React from "react";
 import GreyBtn from "../UI/GreyBtn";
 import styles from "./NavBar.module.css";
 
