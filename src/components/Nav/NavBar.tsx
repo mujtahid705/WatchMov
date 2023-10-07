@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className={styles.topBar}></div>
 
       <div className={styles.bottomBar}>
-        <h1 className={styles.title}>WatchMov</h1>
+        <h1 className={styles.title}>RoomReel</h1>
         <GreyBtn>Login</GreyBtn>
       </div>
     </div>
