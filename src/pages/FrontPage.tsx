@@ -27,27 +27,25 @@ const FrontPage: React.FC = () => {
           {/* <UploadRoundedIcon
             style={{ color: theme.palette.primary.main, fontSize: "240px" }}
           /> */}
-          <UploadRoundedIcon style={{ color: "#262626", fontSize: "100px" }} />
+          <UploadRoundedIcon style={{ color: "#262626", fontSize: "70px" }} />
           <p className={styles.stepTitle}>Upload Video</p>
         </div>
 
         <div className={styles.step}>
           <AddCircleRoundedIcon
-            style={{ color: "#262626", fontSize: "100px" }}
+            style={{ color: "#262626", fontSize: "70px" }}
           />
           <p className={styles.stepTitle}>Create Room</p>
         </div>
 
         <div className={styles.step}>
-          <GroupAddRoundedIcon
-            style={{ color: "#262626", fontSize: "100px" }}
-          />
+          <GroupAddRoundedIcon style={{ color: "#262626", fontSize: "70px" }} />
           <p className={styles.stepTitle}>Invite Friends</p>
         </div>
 
         <div className={styles.step}>
           <CelebrationRoundedIcon
-            style={{ color: "#262626", fontSize: "100px" }}
+            style={{ color: "#262626", fontSize: "70px" }}
           />
           <p className={styles.stepTitle}>Enjoy!</p>
         </div>
