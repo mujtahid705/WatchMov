@@ -4,6 +4,7 @@ import FrontPage from "./pages/FrontPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import UploadPage from "./pages/UploadPage";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,8 @@ const App: React.FC = () => {
           <Route path="/" element={<FrontPage />} />
 
           <Route path="/home" element={<HomePage />} />
+
+          <Route path="/upload" element={<UploadPage />} />
         </Routes>
       </BrowserRouter>
     </div>
